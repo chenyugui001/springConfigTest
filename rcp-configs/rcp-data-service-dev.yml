@@ -1,4 +1,4 @@
-test123: aaaaaccccc
+test123: 123qwer
 spring:
   datasource:
      driverClassName: com.mysql.jdbc.Driver
