@@ -1,4 +1,4 @@
-testvalue: test123
+testvalue: 777777777777777777777
 spring:
   application:
     name: rcp-data-service
