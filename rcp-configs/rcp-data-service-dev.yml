@@ -5,3 +5,23 @@ spring:
      url : jdbc:mysql://192.168.90.41:3306/rt_blacklist?useUnicode=true&characterEncoding=utf-8
      username : root
      password : test@2017
+     
+mybatis:
+  type-aliases-package: com.nlf.datasource.dao.entity
+  mapperLocations: classpath:/mybatis/mapper/*.xml
+  config-location: classpath:/mybatis/config/mybatis-config.xml
+  
+datasource:
+  urls:
+    wsxdCreditURL: https://192.168.90.11:21004
+http:
+  connection:
+    #\连接超时时间
+    connectionTimeout: 100000
+    #等待超时
+    waitTimeout: 100000
+    #默认每个Host最多10个连接数
+    maxConnectionsPerHost: 1000
+    #最大连接数（所有Host加起来）
+    maxTotalConnections: 20000
+    
