@@ -1,4 +1,4 @@
-test123: 88888888888888888888888888888
+test123: "88888888888888888888888888888"
 spring:
   datasource:
      driverClassName: com.mysql.jdbc.Driver
